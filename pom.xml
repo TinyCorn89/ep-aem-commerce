@@ -4,7 +4,7 @@
 
 	<groupId>com.elasticpath.aem.commerce</groupId>
 	<artifactId>aem-commerce-parent</artifactId>
-	<version>1.2.0.20150301220025</version>
+	<version>0-SNAPSHOT</version>
 	<name>EP AEM Commerce parent pom</name>
 	<packaging>pom</packaging>
 
@@ -41,9 +41,9 @@
 
 		<!-- Elastic Path Versions -->
 		<com.elasticpath.code-checking-rules.version>68</com.elasticpath.code-checking-rules.version>
-		<com.elasticpath.aem.commerce.version>1.2.0.20150301220025</com.elasticpath.aem.commerce.version>
+		<com.elasticpath.aem.commerce.version>0-SNAPSHOT</com.elasticpath.aem.commerce.version>
 		<com.elasticpath.aem.ep-aem-import-api.version>1.6</com.elasticpath.aem.ep-aem-import-api.version>
-		<com.elasticpath.commerce-engine.version>613.0.0.20150301220025</com.elasticpath.commerce-engine.version>
+		<com.elasticpath.commerce-engine.version>1.0.0-SNAPSHOT</com.elasticpath.commerce-engine.version>
 		<java.cortex.jaxrs.client.version>1.13.0.20150301220025</java.cortex.jaxrs.client.version>
 
 		<!-- Json Unmarshaller and dependents -->
@@ -278,7 +278,7 @@
 			<dependency>
 				<groupId>com.elasticpath.aem.commerce</groupId>
 				<artifactId>cq-elasticpath-connectionfactory-api</artifactId>
-				<version>1.2.0.20150301220025</version>
+				<version>0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.elasticpath.rest</groupId>
