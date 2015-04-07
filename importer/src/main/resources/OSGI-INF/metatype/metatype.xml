@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0"
+				   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				   xsi:schemaLocation="
+					http://www.osgi.org/xmlns/metatype/v1.0.0
+					http://www.osgi.org/xmlns/metatype/v1.0.0/metatype.xsd">
+
+	<OCD id="com.elasticpath.commerce.importer.config.ElasticPathImporterConfig"
+		 name="Elastic Path Product Importer Configuration"
+		 description="Camel based importer for Elastic Path product data">
+
+		<AD id="cq.commerce.importer.savebatchsize"
+			name="Save Batch Size"
+			description="Approximate number of nodes to batch between session saves"
+			type="Integer"
+			default="1000"
+				/>
+
+		<AD id="cq.commerce.importer.throttlebatchsize"
+			name="Throttle Batch Size"
+			description="Approximate number of nodes between pauses for observation manager"
+			type="Integer"
+			default="50000"
+				/>
+
+		<AD id="cq.commerce.importer.messagecap"
+			name="Message Cap"
+			description="Maximum number of messages to return in response"
+			type="Integer"
+			default="1000"
+				/>
+
+		<AD id="cq.commerce.productimporter.bucketsize"
+			name="Bucket Size"
+			description="Maximum products per section before bucketing, and maximum in each bucket"
+			type="Integer"
+			default="500"
+				/>
+		<AD id="cq.commerce.importer.initialtimeout"
+			name="Importer initial timeout"
+			description="Initial timeout (in milliseconds) for the import listeners"
+			type="Integer"
+			default="10000"
+			min="1"
+			max="2147483647"
+			required="true"
+				/>
+		<AD id="cq.commerce.importer.pollingtimeout"
+			name="Importer polling timeout"
+			description="Polling timeout (in milliseconds) for the import listeners"
+			type="Integer"
+			default="10000"
+			min="1"
+			max="2147483647"
+			required="true"
+			/>
+	</OCD>
+	<Designate pid="com.elasticpath.commerce.importer.config.ElasticPathImporterConfig">
+		<Object ocdref="com.elasticpath.commerce.importer.config.ElasticPathImporterConfig"/>
+	</Designate>
+</metatype:MetaData>

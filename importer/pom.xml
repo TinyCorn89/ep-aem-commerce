@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.elasticpath.aem.commerce</groupId>
+		<artifactId>aem-commerce-parent</artifactId>
+		<version>1.2.0.20150301220025</version>
+	</parent>
+
+	<artifactId>cq-commerce-elasticpath-importer</artifactId>
+	<version>1.2.0.20150301220025</version>
+	<packaging>bundle</packaging>
+
+	<name>Elastic Path Commerce Importer</name>
+	<description>Importer for PIM</description>
+
+	<properties>
+		<org.apache.camel.version>2.11.1</org.apache.camel.version>
+
+		<!--Jacoco-->
+		<jacoco.instruction.covered-ratio>0.69</jacoco.instruction.covered-ratio>
+		<jacoco.branch.covered-ratio>0.76</jacoco.branch.covered-ratio>
+		<jacoco.line.covered-ratio>0.70</jacoco.line.covered-ratio>
+		<jacoco.complexity.covered-ratio>0.70</jacoco.complexity.covered-ratio>
+		<jacoco.method.covered-ratio>0.70</jacoco.method.covered-ratio>
+		<jacoco.class.covered-ratio>0.73</jacoco.class.covered-ratio>
+	</properties>
+
+	<dependencies>
+		<!--EP-->
+		<dependency>
+			<groupId>com.elasticpath.aem.commerce</groupId>
+			<artifactId>cq-config-elasticpath-impl</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.elasticpath.aem</groupId>
+			<artifactId>ep-aem-import-api</artifactId>
+			<version>${com.elasticpath.aem.ep-aem-import-api.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.elasticpath.aem.commerce</groupId>
+			<artifactId>cq-elasticpath-connectionfactory-api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.elasticpath.rest</groupId>
+			<artifactId>cortex-jaxrs-client</artifactId>
+		</dependency>
+
+		<!--osgi-->
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.compendium</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.core</artifactId>
+		</dependency>
+
+		<!--Adobe-->
+		<dependency>
+			<groupId>com.adobe.aem</groupId>
+			<artifactId>aem-api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.adobe.cq.commerce</groupId>
+			<artifactId>cq-commerce-core</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.adobe.cq.commerce</groupId>
+			<artifactId>cq-commerce-pim</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.day.cq</groupId>
+			<artifactId>cq-tagging</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.day.cq.dam</groupId>
+			<artifactId>cq-dam-api</artifactId>
+		</dependency>
+
+		<!-- Messaging -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-core</artifactId>
+			<version>${org.apache.camel.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-jms</artifactId>
+			<version>${org.apache.camel.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-jackson</artifactId>
+			<version>${org.apache.camel.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.geronimo.specs</groupId>
+			<artifactId>geronimo-jms_1.1_spec</artifactId>
+		</dependency>
+
+		<!--Jackson-->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.module</groupId>
+			<artifactId>jackson-module-jaxb-annotations</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+		</dependency>
+
+		<!--jcr-->
+		<dependency>
+			<groupId>javax.jcr</groupId>
+			<artifactId>jcr</artifactId>
+		</dependency>
+
+		<!--other-->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.sling</groupId>
+			<artifactId>org.apache.sling.api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.sling</groupId>
+			<artifactId>org.apache.sling.jcr.resource</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+
+		<!--Injection-->
+		<dependency>
+			<groupId>org.ops4j</groupId>
+			<artifactId>peaberry</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.ops4j.peaberry.extensions</groupId>
+			<artifactId>peaberry.activation</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-guice</artifactId>
+			<version>2.11.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.annotation</groupId>
+			<artifactId>javax.annotation-api</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+		<!--test-->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.codehaus.groovy</groupId>
+			<artifactId>groovy-all</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>${slf4j.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<extensions>true</extensions>
+				<configuration>
+					<obrRepository>NONE</obrRepository>
+					<instructions>
+						<Bundle-Module>com.elasticpath.commerce.importer.bootstrap.RootModule</Bundle-Module>
+						<Embed-Dependency>
+							camel-core,
+							camel-guice,
+							camel-jms,
+							camel-jackson,
+							camel-spring,
+							javax.annotation-api, <!--Required by camel-guice-->
+							spring-jms,
+							spring-context,
+							spring-aop,
+							aopalliance,
+							spring-asm,
+							spring-beans,
+							spring-core,
+							spring-tx,
+							commons-net,
+							commons-lang3,
+							jsr305,
+							jasypt
+						</Embed-Dependency>
+						<Embed-Directory>OSGI-INF/lib</Embed-Directory>
+						<Embed-Transitive>true</Embed-Transitive>
+						<Export-Package>
+							com.elasticpath.commerce.importer
+						</Export-Package>
+						<Import-Package>
+							com.elasticpath.commerce.config,
+							com.elasticpath.commerce.importer.model,
+							javax.jms,
+							com.elasticpath.jms.api,
+
+							*;resolution:=optional
+						</Import-Package>
+					</instructions>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+			</plugin>
+
+			<!-- BEGIN - ElasticPath Style and Code Coverage Plugins -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-checkstyle-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+			</plugin>
+			<!-- END - ElasticPath Style and Code Coverage Plugins -->
+		</plugins>
+	</build>
+</project>

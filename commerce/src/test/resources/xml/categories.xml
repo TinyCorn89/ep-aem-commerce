@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<categories>
+<category mastercatalog="geometrixx">
+    <guid>seasonal|geometrixx</guid>
+    <parentcategory></parentcategory>
+    <code>seasonal</code>
+    <name>
+        <value language="en">seasonal</value>
+    </name>
+    <type>geometrixx_category</type>
+    <order>0</order>
+    <availability>
+        <storevisible>true</storevisible>
+        <enabledate>2013-11-28T03:28:51-08:00</enabledate>
+    </availability>
+    <attributes/>
+    <seo>
+        <url>
+            <value language="en"></value>
+        </url>
+        <title>
+            <value language="en"></value>
+        </title>
+        <keywords>
+            <value language="en"></value>
+        </keywords>
+        <description>
+            <value language="en"></value>
+        </description>
+    </seo>
+</category>
+
+<category mastercatalog="geometrixx">
+    <guid>summer|geometrixx</guid>
+    <parentcategory>seasonal</parentcategory>
+    <code>summer</code>
+    <name>
+        <value language="en">summer</value>
+    </name>
+    <type>geometrixx_category</type>
+    <order>0</order>
+    <availability>
+        <storevisible>true</storevisible>
+        <enabledate>2013-11-28T03:28:52-08:00</enabledate>
+    </availability>
+    <attributes/>
+    <seo>
+        <url>
+            <value language="en"></value>
+        </url>
+        <title>
+            <value language="en"></value>
+        </title>
+        <keywords>
+            <value language="en"></value>
+        </keywords>
+        <description>
+            <value language="en"></value>
+        </description>
+    </seo>
+</category>
+<category mastercatalog="geometrixx">
+    <guid>men|geometrixx</guid>
+    <parentcategory></parentcategory>
+    <code>men</code>
+    <name>
+        <value language="en">men</value>
+    </name>
+    <type>geometrixx_category</type>
+    <order>0</order>
+    <availability>
+        <storevisible>true</storevisible>
+        <enabledate>2013-11-28T03:28:50-08:00</enabledate>
+    </availability>
+    <attributes/>
+    <seo>
+        <url>
+            <value language="en"></value>
+        </url>
+        <title>
+            <value language="en"></value>
+        </title>
+        <keywords>
+            <value language="en"></value>
+        </keywords>
+        <description>
+            <value language="en"></value>
+        </description>
+    </seo>
+</category>
+<category mastercatalog="geometrixx">
+    <guid>coatsm|geometrixx</guid>
+    <parentcategory>men</parentcategory>
+    <code>coatsm</code>
+    <name>
+        <value language="en">coats</value>
+    </name>
+    <type>geometrixx_category</type>
+    <order>0</order>
+    <availability>
+        <storevisible>true</storevisible>
+        <enabledate>2013-11-28T03:28:51-08:00</enabledate>
+    </availability>
+    <attributes/>
+    <seo>
+        <url>
+            <value language="en"></value>
+        </url>
+        <title>
+            <value language="en"></value>
+        </title>
+        <keywords>
+            <value language="en"></value>
+        </keywords>
+        <description>
+            <value language="en"></value>
+        </description>
+    </seo>
+</category>
+</categories>

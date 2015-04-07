@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogs>
+<catalog>
+	<code>geometrixx</code>
+	<type>master</type>
+	<name>Geometrixx Outdoors</name>
+	<languages>
+		<language>en</language>
+	</languages>
+	<defaultlanguage>en</defaultlanguage>
+	<attributes>
+		<attribute>
+			<key>description</key>
+			<name>Description</name>
+			<usage>Product</usage>
+			<type>ShortText</type>
+			<multilanguage>false</multilanguage>
+			<required>false</required>
+			<multivalue>false</multivalue>
+			<global>false</global>
+		</attribute>
+		<attribute>
+			<key>features</key>
+			<name>Features</name>
+			<usage>Product</usage>
+			<type>LongText</type>
+			<multilanguage>false</multilanguage>
+			<required>false</required>
+			<multivalue>false</multivalue>
+			<global>false</global>
+		</attribute>
+		<attribute>
+			<key>summary</key>
+			<name>Summary</name>
+			<usage>Product</usage>
+			<type>LongText</type>
+			<multilanguage>false</multilanguage>
+			<required>false</required>
+			<multivalue>false</multivalue>
+			<global>false</global>
+		</attribute>
+		<attribute>
+			<key>tag</key>
+			<name>Tag</name>
+			<usage>Product</usage>
+			<type>ShortText</type>
+			<multilanguage>false</multilanguage>
+			<required>false</required>
+			<multivalue>true</multivalue>
+			<global>false</global>
+		</attribute>
+	</attributes>
+	<categorytypes>
+		<categorytype>
+			<guid>6152b6c4-b181-4b48-bd69-c53694e95272</guid>
+			<name>geometrixx_category</name>
+			<template>categoryTemplate</template>
+			<assignedattributes/>
+		</categorytype>
+	</categorytypes>
+	<producttypes>
+		<producttype>
+			<guid>6f7d06b4-d95b-48fc-be54-03af6e12d030</guid>
+			<name>geometrixxWithSize</name>
+			<template>guidedSkuTemplate</template>
+			<assignedattributes>
+				<attributekey>summary</attributekey>
+				<attributekey>features</attributekey>
+				<attributekey>description</attributekey>
+				<attributekey>tag</attributekey>
+			</assignedattributes>
+			<defaulttaxcode>NONE</defaulttaxcode>
+			<multisku>
+				<assignedskuoptions>
+					<skuoption>size</skuoption>
+				</assignedskuoptions>
+				<assignedattributes/>
+			</multisku>
+			<nodiscount>false</nodiscount>
+		</producttype>
+		<producttype>
+			<guid>d904b94f-d7e9-4ca6-aa2e-eec3bf82c110</guid>
+			<name>geometrixxWithColor</name>
+			<template>guidedSkuTemplate</template>
+			<assignedattributes>
+				<attributekey>summary</attributekey>
+				<attributekey>features</attributekey>
+				<attributekey>description</attributekey>
+				<attributekey>tag</attributekey>
+			</assignedattributes>
+			<defaulttaxcode>GOODS</defaulttaxcode>
+			<multisku>
+				<assignedskuoptions>
+					<skuoption>color</skuoption>
+				</assignedskuoptions>
+				<assignedattributes/>
+			</multisku>
+			<nodiscount>false</nodiscount>
+		</producttype>
+		<producttype>
+			<guid>73980c41-a1cd-42bc-ad6f-9432d3830740</guid>
+			<name>geometrixx</name>
+			<template>guidedSkuTemplate</template>
+			<assignedattributes>
+				<attributekey>summary</attributekey>
+				<attributekey>features</attributekey>
+				<attributekey>description</attributekey>
+				<attributekey>tag</attributekey>
+			</assignedattributes>
+			<defaulttaxcode>GOODS</defaulttaxcode>
+			<nodiscount>false</nodiscount>
+		</producttype>
+		<producttype>
+			<guid>cf574b71-94fd-4aa5-892c-d489fcb142c8</guid>
+			<name>geometrixxWithColorAndSize</name>
+			<template>guidedSkuTemplate</template>
+			<assignedattributes>
+				<attributekey>summary</attributekey>
+				<attributekey>features</attributekey>
+				<attributekey>description</attributekey>
+				<attributekey>tag</attributekey>
+			</assignedattributes>
+			<defaulttaxcode>GOODS</defaulttaxcode>
+			<multisku>
+				<assignedskuoptions>
+					<skuoption>color</skuoption>
+					<skuoption>size</skuoption>
+				</assignedskuoptions>
+				<assignedattributes/>
+			</multisku>
+			<nodiscount>false</nodiscount>
+		</producttype>
+	</producttypes>
+	<skuoptions>
+		<skuoption>
+			<code>color</code>
+			<name>
+				<value language="en">Color</value>
+			</name>
+			<skuoptionvalues>
+				<skuoptionvalue>
+					<code>sportred</code>
+					<name>
+						<value language="en">Sport Red</value>
+					</name>
+					<ordering>130</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>orange</code>
+					<name>
+						<value language="en">Orange</value>
+					</name>
+					<ordering>10</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>warm</code>
+					<name>
+						<value language="en">Warm</value>
+					</name>
+					<ordering>110</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>purple</code>
+					<name>
+						<value language="en">Purple</value>
+					</name>
+					<ordering>40</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>green</code>
+					<name>
+						<value language="en">Green</value>
+					</name>
+					<ordering>60</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>cuzcoorange</code>
+					<name>
+						<value language="en">Cuzco Orange</value>
+					</name>
+					<ordering>80</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>red</code>
+					<name>
+						<value language="en">Red</value>
+					</name>
+					<ordering>150</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>cold</code>
+					<name>
+						<value language="en">Cold</value>
+					</name>
+					<ordering>120</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>blue</code>
+					<name>
+						<value language="en">Blue</value>
+					</name>
+					<ordering>50</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>waterblue</code>
+					<name>
+						<value language="en">Water Blue</value>
+					</name>
+					<ordering>100</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>sportblue</code>
+					<name>
+						<value language="en">Sport Blue</value>
+					</name>
+					<ordering>140</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>pink</code>
+					<name>
+						<value language="en">Pink</value>
+					</name>
+					<ordering>30</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>cuzcoblue</code>
+					<name>
+						<value language="en">Cuzco Blue</value>
+					</name>
+					<ordering>70</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>waterred</code>
+					<name>
+						<value language="en">Water Red</value>
+					</name>
+					<ordering>90</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>black</code>
+					<name>
+						<value language="en">Black</value>
+					</name>
+					<ordering>20</ordering>
+				</skuoptionvalue>
+			</skuoptionvalues>
+		</skuoption>
+		<skuoption>
+			<code>size</code>
+			<name>
+				<value language="en">Size</value>
+			</name>
+			<skuoptionvalues>
+				<skuoptionvalue>
+					<code>10.5</code>
+					<name>
+						<value language="en">10.5</value>
+					</name>
+					<ordering>210</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>XS</code>
+					<name>
+						<value language="en">XS</value>
+					</name>
+					<ordering>10</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>9.5</code>
+					<name>
+						<value language="en">9.5</value>
+					</name>
+					<ordering>200</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>160cm</code>
+					<name>
+						<value language="en">160cm</value>
+					</name>
+					<ordering>330</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>L</code>
+					<name>
+						<value language="en">L</value>
+					</name>
+					<ordering>40</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>M</code>
+					<name>
+						<value language="en">M</value>
+					</name>
+					<ordering>30</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>13</code>
+					<name>
+						<value language="en">13</value>
+					</name>
+					<ordering>150</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>2XL</code>
+					<name>
+						<value language="en">2XL</value>
+					</name>
+					<ordering>60</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>130cm</code>
+					<name>
+						<value language="en">130cm</value>
+					</name>
+					<ordering>300</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>XL</code>
+					<name>
+						<value language="en">XL</value>
+					</name>
+					<ordering>50</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>11</code>
+					<name>
+						<value language="en">11</value>
+					</name>
+					<ordering>130</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>12</code>
+					<name>
+						<value language="en">12</value>
+					</name>
+					<ordering>140</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>S</code>
+					<name>
+						<value language="en">S</value>
+					</name>
+					<ordering>20</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>6.5</code>
+					<name>
+						<value language="en">6.5</value>
+					</name>
+					<ordering>170</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>7.5</code>
+					<name>
+						<value language="en">7.5</value>
+					</name>
+					<ordering>180</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>10_3</code>
+					<name>
+						<value language="en">10'3"</value>
+					</name>
+					<ordering>290</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>5.5</code>
+					<name>
+						<value language="en">5.5</value>
+					</name>
+					<ordering>160</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>8.5</code>
+					<name>
+						<value language="en">8.5</value>
+					</name>
+					<ordering>190</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>9_8</code>
+					<name>
+						<value language="en">9'8"</value>
+					</name>
+					<ordering>260</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>XXL</code>
+					<name>
+						<value language="en">XXL</value>
+					</name>
+					<ordering>340</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>9_6</code>
+					<name>
+						<value language="en">9'6"</value>
+					</name>
+					<ordering>250</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>150cm</code>
+					<name>
+						<value language="en">150cm</value>
+					</name>
+					<ordering>320</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>3</code>
+					<name>
+						<value language="en">3</value>
+					</name>
+					<ordering>350</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>10</code>
+					<name>
+						<value language="en">10</value>
+					</name>
+					<ordering>120</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>7</code>
+					<name>
+						<value language="en">7</value>
+					</name>
+					<ordering>90</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>10_</code>
+					<name>
+						<value language="en">10'</value>
+					</name>
+					<ordering>280</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>6</code>
+					<name>
+						<value language="en">6</value>
+					</name>
+					<ordering>80</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>5</code>
+					<name>
+						<value language="en">5</value>
+					</name>
+					<ordering>70</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>4</code>
+					<name>
+						<value language="en">4</value>
+					</name>
+					<ordering>360</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>9_4</code>
+					<name>
+						<value language="en">9'4"</value>
+					</name>
+					<ordering>240</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>140cm</code>
+					<name>
+						<value language="en">140cm</value>
+					</name>
+					<ordering>310</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>9</code>
+					<name>
+						<value language="en">9</value>
+					</name>
+					<ordering>110</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>11.5</code>
+					<name>
+						<value language="en">11.5</value>
+					</name>
+					<ordering>220</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>9_2</code>
+					<name>
+						<value language="en">9'2"</value>
+					</name>
+					<ordering>230</ordering>
+				</skuoptionvalue>
+				<skuoptionvalue>
+					<code>8</code>
+					<name>
+						<value language="en">8</value>
+					</name>
+					<ordering>100</ordering>
+				</skuoptionvalue>
+			</skuoptionvalues>
+		</skuoption>
+	</skuoptions>
+	<brands>
+		<brand>
+			<code>geometrixx</code>
+			<name>
+				<value language="en">Geometrixx</value>
+			</name>
+		</brand>
+	</brands>
+</catalog>
+<catalog>
+    <code>second</code>
+    <type>virtual</type>
+    <name>Second Catalog</name>
+    <languages>
+        <language>en</language>
+    </languages>
+    <defaultlanguage>en</defaultlanguage>
+    <attributes>
+        <attribute>
+            <key>description</key>
+            <name>Description</name>
+            <usage>Product</usage>
+            <type>ShortText</type>
+            <multilanguage>false</multilanguage>
+            <required>false</required>
+            <multivalue>false</multivalue>
+            <global>false</global>
+        </attribute>
+        <attribute>
+            <key>features</key>
+            <name>Features</name>
+            <usage>Product</usage>
+            <type>LongText</type>
+            <multilanguage>false</multilanguage>
+            <required>false</required>
+            <multivalue>false</multivalue>
+            <global>false</global>
+        </attribute>
+        <attribute>
+            <key>summary</key>
+            <name>Summary</name>
+            <usage>Product</usage>
+            <type>LongText</type>
+            <multilanguage>false</multilanguage>
+            <required>false</required>
+            <multivalue>false</multivalue>
+            <global>false</global>
+        </attribute>
+        <attribute>
+            <key>tag</key>
+            <name>Tag</name>
+            <usage>Product</usage>
+            <type>ShortText</type>
+            <multilanguage>false</multilanguage>
+            <required>false</required>
+            <multivalue>true</multivalue>
+            <global>false</global>
+        </attribute>
+    </attributes>
+    <categorytypes>
+        <categorytype>
+            <guid>6152b6c4-b181-4b48-bd69-c53694e95272</guid>
+            <name>geometrixx_category</name>
+            <template>categoryTemplate</template>
+            <assignedattributes/>
+        </categorytype>
+    </categorytypes>
+    <producttypes>
+        <producttype>
+            <guid>6f7d06b4-d95b-48fc-be54-03af6e12d030</guid>
+            <name>geometrixxWithSize</name>
+            <template>guidedSkuTemplate</template>
+            <assignedattributes>
+                <attributekey>summary</attributekey>
+                <attributekey>features</attributekey>
+                <attributekey>description</attributekey>
+                <attributekey>tag</attributekey>
+            </assignedattributes>
+            <defaulttaxcode>NONE</defaulttaxcode>
+            <multisku>
+                <assignedskuoptions>
+                    <skuoption>size</skuoption>
+                </assignedskuoptions>
+                <assignedattributes/>
+            </multisku>
+            <nodiscount>false</nodiscount>
+        </producttype>
+        <producttype>
+            <guid>d904b94f-d7e9-4ca6-aa2e-eec3bf82c110</guid>
+            <name>geometrixxWithColor</name>
+            <template>guidedSkuTemplate</template>
+            <assignedattributes>
+                <attributekey>summary</attributekey>
+                <attributekey>features</attributekey>
+                <attributekey>description</attributekey>
+                <attributekey>tag</attributekey>
+            </assignedattributes>
+            <defaulttaxcode>GOODS</defaulttaxcode>
+            <multisku>
+                <assignedskuoptions>
+                    <skuoption>color</skuoption>
+                </assignedskuoptions>
+                <assignedattributes/>
+            </multisku>
+            <nodiscount>false</nodiscount>
+        </producttype>
+        <producttype>
+            <guid>73980c41-a1cd-42bc-ad6f-9432d3830740</guid>
+            <name>geometrixx</name>
+            <template>guidedSkuTemplate</template>
+            <assignedattributes>
+                <attributekey>summary</attributekey>
+                <attributekey>features</attributekey>
+                <attributekey>description</attributekey>
+                <attributekey>tag</attributekey>
+            </assignedattributes>
+            <defaulttaxcode>GOODS</defaulttaxcode>
+            <nodiscount>false</nodiscount>
+        </producttype>
+        <producttype>
+            <guid>cf574b71-94fd-4aa5-892c-d489fcb142c8</guid>
+            <name>geometrixxWithColorAndSize</name>
+            <template>guidedSkuTemplate</template>
+            <assignedattributes>
+                <attributekey>summary</attributekey>
+                <attributekey>features</attributekey>
+                <attributekey>description</attributekey>
+                <attributekey>tag</attributekey>
+            </assignedattributes>
+            <defaulttaxcode>GOODS</defaulttaxcode>
+            <multisku>
+                <assignedskuoptions>
+                    <skuoption>color</skuoption>
+                    <skuoption>size</skuoption>
+                </assignedskuoptions>
+                <assignedattributes/>
+            </multisku>
+            <nodiscount>false</nodiscount>
+        </producttype>
+    </producttypes>
+    <skuoptions>
+        <skuoption>
+            <code>color</code>
+            <name>
+                <value language="en">Color</value>
+            </name>
+            <skuoptionvalues>
+                <skuoptionvalue>
+                    <code>sportred</code>
+                    <name>
+                        <value language="en">Sport Red</value>
+                    </name>
+                    <ordering>130</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>orange</code>
+                    <name>
+                        <value language="en">Orange</value>
+                    </name>
+                    <ordering>10</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>warm</code>
+                    <name>
+                        <value language="en">Warm</value>
+                    </name>
+                    <ordering>110</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>purple</code>
+                    <name>
+                        <value language="en">Purple</value>
+                    </name>
+                    <ordering>40</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>green</code>
+                    <name>
+                        <value language="en">Green</value>
+                    </name>
+                    <ordering>60</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>cuzcoorange</code>
+                    <name>
+                        <value language="en">Cuzco Orange</value>
+                    </name>
+                    <ordering>80</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>red</code>
+                    <name>
+                        <value language="en">Red</value>
+                    </name>
+                    <ordering>150</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>cold</code>
+                    <name>
+                        <value language="en">Cold</value>
+                    </name>
+                    <ordering>120</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>blue</code>
+                    <name>
+                        <value language="en">Blue</value>
+                    </name>
+                    <ordering>50</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>waterblue</code>
+                    <name>
+                        <value language="en">Water Blue</value>
+                    </name>
+                    <ordering>100</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>sportblue</code>
+                    <name>
+                        <value language="en">Sport Blue</value>
+                    </name>
+                    <ordering>140</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>pink</code>
+                    <name>
+                        <value language="en">Pink</value>
+                    </name>
+                    <ordering>30</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>cuzcoblue</code>
+                    <name>
+                        <value language="en">Cuzco Blue</value>
+                    </name>
+                    <ordering>70</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>waterred</code>
+                    <name>
+                        <value language="en">Water Red</value>
+                    </name>
+                    <ordering>90</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>black</code>
+                    <name>
+                        <value language="en">Black</value>
+                    </name>
+                    <ordering>20</ordering>
+                </skuoptionvalue>
+            </skuoptionvalues>
+        </skuoption>
+        <skuoption>
+            <code>size</code>
+            <name>
+                <value language="en">Size</value>
+            </name>
+            <skuoptionvalues>
+                <skuoptionvalue>
+                    <code>10.5</code>
+                    <name>
+                        <value language="en">10.5</value>
+                    </name>
+                    <ordering>210</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>XS</code>
+                    <name>
+                        <value language="en">XS</value>
+                    </name>
+                    <ordering>10</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>9.5</code>
+                    <name>
+                        <value language="en">9.5</value>
+                    </name>
+                    <ordering>200</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>160cm</code>
+                    <name>
+                        <value language="en">160cm</value>
+                    </name>
+                    <ordering>330</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>L</code>
+                    <name>
+                        <value language="en">L</value>
+                    </name>
+                    <ordering>40</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>M</code>
+                    <name>
+                        <value language="en">M</value>
+                    </name>
+                    <ordering>30</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>13</code>
+                    <name>
+                        <value language="en">13</value>
+                    </name>
+                    <ordering>150</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>2XL</code>
+                    <name>
+                        <value language="en">2XL</value>
+                    </name>
+                    <ordering>60</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>130cm</code>
+                    <name>
+                        <value language="en">130cm</value>
+                    </name>
+                    <ordering>300</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>XL</code>
+                    <name>
+                        <value language="en">XL</value>
+                    </name>
+                    <ordering>50</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>11</code>
+                    <name>
+                        <value language="en">11</value>
+                    </name>
+                    <ordering>130</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>12</code>
+                    <name>
+                        <value language="en">12</value>
+                    </name>
+                    <ordering>140</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>S</code>
+                    <name>
+                        <value language="en">S</value>
+                    </name>
+                    <ordering>20</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>6.5</code>
+                    <name>
+                        <value language="en">6.5</value>
+                    </name>
+                    <ordering>170</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>7.5</code>
+                    <name>
+                        <value language="en">7.5</value>
+                    </name>
+                    <ordering>180</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>10_3</code>
+                    <name>
+                        <value language="en">10'3"</value>
+                    </name>
+                    <ordering>290</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>5.5</code>
+                    <name>
+                        <value language="en">5.5</value>
+                    </name>
+                    <ordering>160</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>8.5</code>
+                    <name>
+                        <value language="en">8.5</value>
+                    </name>
+                    <ordering>190</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>9_8</code>
+                    <name>
+                        <value language="en">9'8"</value>
+                    </name>
+                    <ordering>260</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>XXL</code>
+                    <name>
+                        <value language="en">XXL</value>
+                    </name>
+                    <ordering>340</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>9_6</code>
+                    <name>
+                        <value language="en">9'6"</value>
+                    </name>
+                    <ordering>250</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>150cm</code>
+                    <name>
+                        <value language="en">150cm</value>
+                    </name>
+                    <ordering>320</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>3</code>
+                    <name>
+                        <value language="en">3</value>
+                    </name>
+                    <ordering>350</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>10</code>
+                    <name>
+                        <value language="en">10</value>
+                    </name>
+                    <ordering>120</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>7</code>
+                    <name>
+                        <value language="en">7</value>
+                    </name>
+                    <ordering>90</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>10_</code>
+                    <name>
+                        <value language="en">10'</value>
+                    </name>
+                    <ordering>280</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>6</code>
+                    <name>
+                        <value language="en">6</value>
+                    </name>
+                    <ordering>80</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>5</code>
+                    <name>
+                        <value language="en">5</value>
+                    </name>
+                    <ordering>70</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>4</code>
+                    <name>
+                        <value language="en">4</value>
+                    </name>
+                    <ordering>360</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>9_4</code>
+                    <name>
+                        <value language="en">9'4"</value>
+                    </name>
+                    <ordering>240</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>140cm</code>
+                    <name>
+                        <value language="en">140cm</value>
+                    </name>
+                    <ordering>310</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>9</code>
+                    <name>
+                        <value language="en">9</value>
+                    </name>
+                    <ordering>110</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>11.5</code>
+                    <name>
+                        <value language="en">11.5</value>
+                    </name>
+                    <ordering>220</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>9_2</code>
+                    <name>
+                        <value language="en">9'2"</value>
+                    </name>
+                    <ordering>230</ordering>
+                </skuoptionvalue>
+                <skuoptionvalue>
+                    <code>8</code>
+                    <name>
+                        <value language="en">8</value>
+                    </name>
+                    <ordering>100</ordering>
+                </skuoptionvalue>
+            </skuoptionvalues>
+        </skuoption>
+    </skuoptions>
+    <brands>
+        <brand>
+            <code>geometrixx</code>
+            <name>
+                <value language="en">Geometrixx</value>
+            </name>
+        </brand>
+    </brands>
+</catalog>
+</catalogs>

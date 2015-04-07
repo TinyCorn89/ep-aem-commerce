@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<products>
+<product>
+    <code>snwnhw</code>
+    <name>
+        <value language="en">Halifax Winter</value>
+    </name>
+    <type>geometrixx</type>
+    <taxcode>GOODS</taxcode>
+    <brand>geometrixx</brand>
+    <image>/products/scarf/Halifax.jpg</image>
+    <availability>
+        <storevisible>true</storevisible>
+        <notsoldseperately>false</notsoldseperately>
+        <enabledate>2013-11-28T03:35:05-08:00</enabledate>
+        <minorderqty>1</minorderqty>
+        <availabilityrule>ALWAYS_AVAILABLE</availabilityrule>
+        <orderlimit>0</orderlimit>
+    </availability>
+    <attributes>
+        <attribute key="summary">
+            <value>...</value>
+        </attribute>
+        <attribute key="description">
+            <value>Scarf</value>
+        </attribute>
+        <attribute key="tag">
+            <value>geometrixx-outdoors:season/winter</value>
+            <value>geometrixx-outdoors:apparel/scarf</value>
+            <value>geometrixx-outdoors:activity/skiing</value>
+        </attribute>
+    </attributes>
+    <skus>
+        <sku guid="snwnhw">
+            <code>snwnhw</code>
+            <shippable enabled="true">
+                <weight units="KG">0.00</weight>
+                <width units="CM">0.00</width>
+                <length units="CM">0.00</length>
+                <height units="CM">0.00</height>
+            </shippable>
+            <digitalasset enabled="false"/>
+        </sku>
+    </skus>
+    <seo>
+        <url>
+            <value language="en"></value>
+        </url>
+        <title>
+            <value language="en"></value>
+        </title>
+        <keywords>
+            <value language="en"></value>
+        </keywords>
+        <description>
+            <value language="en"></value>
+        </description>
+    </seo>
+</product>
+</products>

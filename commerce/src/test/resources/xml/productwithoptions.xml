@@ -1,0 +1,236 @@
+<products>
+	<product>
+	    <code>eqsmnn</code>
+	    <name>
+	        <value language="en">Nunavut Fleece</value>
+	    </name>
+	    <type>geometrixxWithColorAndSize</type>
+	    <taxcode>GOODS</taxcode>
+	    <brand>geometrixx</brand>
+	    <image>/products/coat/Nunavut Orange.jpg</image>
+	    <availability>
+	        <storevisible>true</storevisible>
+	        <notsoldseperately>false</notsoldseperately>
+	        <enabledate>2013-11-28T03:44:49-08:00</enabledate>
+	        <minorderqty>1</minorderqty>
+	        <availabilityrule>ALWAYS_AVAILABLE</availabilityrule>
+	        <orderlimit>0</orderlimit>
+	    </availability>
+	    <attributes>
+	        <attribute key="summary">
+	            <value>...</value>
+	        </attribute>
+	        <attribute key="description">
+	            <value>Coat</value>
+	        </attribute>
+	        <attribute key="tag">
+	            <value>geometrixx-outdoors:activity/hiking</value>
+	            <value>geometrixx-outdoors:season/summer</value>
+	            <value>geometrixx-outdoors:apparel/coat</value>
+	        </attribute>
+	        <attribute key="features">
+	            <value>...</value>
+	        </attribute>
+	    </attributes>
+	    <skus>
+	        <sku guid="8ff18515-27eb-4155-a491-4c35bb9b7eb0">
+	            <code>eqsmnn.o-S</code>
+	            <skuoptions>
+	                <skuoption code="color">
+	                    <skuoptionvalue>orange</skuoptionvalue>
+	                </skuoption>
+	                <skuoption code="size">
+	                    <skuoptionvalue>S</skuoptionvalue>
+	                </skuoption>
+	            </skuoptions>
+	            <availability>
+	                <enabledate>2013-11-28T03:53:28-08:00</enabledate>
+	            </availability>
+	            <shippable enabled="true">
+	                <weight units="KG">0.00</weight>
+	                <width units="CM">0.00</width>
+	                <length units="CM">0.00</length>
+	                <height units="CM">0.00</height>
+	            </shippable>
+	            <digitalasset enabled="false"/>
+	            <image>/products/coat/Nunavut Orange.jpg</image>
+	            <attributes/>
+	        </sku>
+	        <sku guid="2649db6c-f0ff-4b4b-94d2-2773e3061e84">
+	            <code>eqsmnn.b-XL</code>
+	            <skuoptions>
+	                <skuoption code="color">
+	                    <skuoptionvalue>black</skuoptionvalue>
+	                </skuoption>
+	                <skuoption code="size">
+	                    <skuoptionvalue>XL</skuoptionvalue>
+	                </skuoption>
+	            </skuoptions>
+	            <availability>
+	                <enabledate>2013-11-28T03:53:29-08:00</enabledate>
+	            </availability>
+	            <shippable enabled="true">
+	                <weight units="KG">0.00</weight>
+	                <width units="CM">0.00</width>
+	                <length units="CM">0.00</length>
+	                <height units="CM">0.00</height>
+	            </shippable>
+	            <digitalasset enabled="false"/>
+	            <image>/products/coat/Nunavut Black.jpg</image>
+	            <attributes/>
+	        </sku>
+	        <sku guid="7e7bdb07-065a-4a78-a76b-e4a08f4ed347">
+	            <code>eqsmnn.o-XL</code>
+	            <skuoptions>
+	                <skuoption code="color">
+	                    <skuoptionvalue>orange</skuoptionvalue>
+	                </skuoption>
+	                <skuoption code="size">
+	                    <skuoptionvalue>XL</skuoptionvalue>
+	                </skuoption>
+	            </skuoptions>
+	            <availability>
+	                <enabledate>2013-11-28T03:53:29-08:00</enabledate>
+	            </availability>
+	            <shippable enabled="true">
+	                <weight units="KG">0.00</weight>
+	                <width units="CM">0.00</width>
+	                <length units="CM">0.00</length>
+	                <height units="CM">0.00</height>
+	            </shippable>
+	            <digitalasset enabled="false"/>
+	            <image>/products/coat/Nunavut Orange.jpg</image>
+	            <attributes/>
+	        </sku>
+	        <sku guid="e405fbaf-eace-494f-aaa6-cfcde93d6080">
+	            <code>eqsmnn.b-S</code>
+	            <skuoptions>
+	                <skuoption code="color">
+	                    <skuoptionvalue>black</skuoptionvalue>
+	                </skuoption>
+	                <skuoption code="size">
+	                    <skuoptionvalue>S</skuoptionvalue>
+	                </skuoption>
+	            </skuoptions>
+	            <availability>
+	                <enabledate>2013-11-28T03:53:29-08:00</enabledate>
+	            </availability>
+	            <shippable enabled="true">
+	                <weight units="KG">0.00</weight>
+	                <width units="CM">0.00</width>
+	                <length units="CM">0.00</length>
+	                <height units="CM">0.00</height>
+	            </shippable>
+	            <digitalasset enabled="false"/>
+	            <image>/products/coat/Nunavut Black.jpg</image>
+	            <attributes/>
+	        </sku>
+	        <sku guid="5aea2222-3593-4c8a-8ef0-2beb4fb291b4">
+	            <code>eqsmnn.o-M</code>
+	            <skuoptions>
+	                <skuoption code="color">
+	                    <skuoptionvalue>orange</skuoptionvalue>
+	                </skuoption>
+	                <skuoption code="size">
+	                    <skuoptionvalue>M</skuoptionvalue>
+	                </skuoption>
+	            </skuoptions>
+	            <availability>
+	                <enabledate>2013-11-28T03:53:29-08:00</enabledate>
+	            </availability>
+	            <shippable enabled="true">
+	                <weight units="KG">0.00</weight>
+	                <width units="CM">0.00</width>
+	                <length units="CM">0.00</length>
+	                <height units="CM">0.00</height>
+	            </shippable>
+	            <digitalasset enabled="false"/>
+	            <image>/products/coat/Nunavut Orange.jpg</image>
+	            <attributes/>
+	        </sku>
+	        <sku guid="ff1957a2-b7cc-4a5c-a0cc-178bba0f0017">
+	            <code>eqsmnn.o-L</code>
+	            <skuoptions>
+	                <skuoption code="color">
+	                    <skuoptionvalue>orange</skuoptionvalue>
+	                </skuoption>
+	                <skuoption code="size">
+	                    <skuoptionvalue>L</skuoptionvalue>
+	                </skuoption>
+	            </skuoptions>
+	            <availability>
+	                <enabledate>2013-11-28T03:53:29-08:00</enabledate>
+	            </availability>
+	            <shippable enabled="true">
+	                <weight units="KG">0.00</weight>
+	                <width units="CM">0.00</width>
+	                <length units="CM">0.00</length>
+	                <height units="CM">0.00</height>
+	            </shippable>
+	            <digitalasset enabled="false"/>
+	            <image>/products/coat/Nunavut Orange.jpg</image>
+	            <attributes/>
+	        </sku>
+	        <sku guid="5fd23f01-2497-4a65-886d-396a547d6e8c">
+	            <code>eqsmnn.b-M</code>
+	            <skuoptions>
+	                <skuoption code="color">
+	                    <skuoptionvalue>black</skuoptionvalue>
+	                </skuoption>
+	                <skuoption code="size">
+	                    <skuoptionvalue>M</skuoptionvalue>
+	                </skuoption>
+	            </skuoptions>
+	            <availability>
+	                <enabledate>2013-11-28T03:53:29-08:00</enabledate>
+	            </availability>
+	            <shippable enabled="true">
+	                <weight units="KG">0.00</weight>
+	                <width units="CM">0.00</width>
+	                <length units="CM">0.00</length>
+	                <height units="CM">0.00</height>
+	            </shippable>
+	            <digitalasset enabled="false"/>
+	            <image>/products/coat/Nunavut Black.jpg</image>
+	            <attributes/>
+	        </sku>
+	        <sku guid="5f8abc61-a2cd-44a4-a80d-e66b149e88f7">
+	            <code>eqsmnn.b-L</code>
+	            <skuoptions>
+	                <skuoption code="color">
+	                    <skuoptionvalue>black</skuoptionvalue>
+	                </skuoption>
+	                <skuoption code="size">
+	                    <skuoptionvalue>L</skuoptionvalue>
+	                </skuoption>
+	            </skuoptions>
+	            <availability>
+	                <enabledate>2013-11-28T03:53:29-08:00</enabledate>
+	            </availability>
+	            <shippable enabled="true">
+	                <weight units="KG">0.00</weight>
+	                <width units="CM">0.00</width>
+	                <length units="CM">0.00</length>
+	                <height units="CM">0.00</height>
+	            </shippable>
+	            <digitalasset enabled="false"/>
+	            <image>/products/coat/Nunavut Black.jpg</image>
+	            <attributes/>
+	        </sku>
+	    </skus>
+	    <seo>
+	        <url>
+	            <value language="en"></value>
+	        </url>
+	        <title>
+	            <value language="en"></value>
+	        </title>
+	        <keywords>
+	            <value language="en"></value>
+	        </keywords>
+	        <description>
+	            <value language="en"></value>
+	        </description>
+	    </seo>
+	</product>
+</products>
